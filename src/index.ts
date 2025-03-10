@@ -20,7 +20,7 @@ export function useURLState<T>(key: string, defaultValue: T): [T, React.Dispatch
     const compressed = params.get(key);
     if (compressed) {
       try {
-        const jsonString = JSONCrush.uncrush(compressed);
+        const jsonString = JSONCrush.uncrush(decodeURIComponent(compressed));
         if (!jsonString) return defaultValue;
         return JSON.parse(jsonString) as T;
       } catch (error) {
