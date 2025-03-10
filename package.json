@@ -1,6 +1,6 @@
 {
   "name": "@jhasbulla/url-state-compressor",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "",
   "main": "dist/url-state-compressor.cjs.js",
   "module": "dist/url-state-compressor.es.js",
@@ -11,6 +11,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhasbulla/URLStateCompressor.git"
   },
   "keywords": [
     "url",
