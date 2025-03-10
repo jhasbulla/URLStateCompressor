@@ -38,7 +38,7 @@ This library allows you to easily share application state via URL by compressing
 Install the package using npm:
 
 ```bash
-npm i url-state-compressor
+npm i @jhasbulla/url-state-compressor
 ```
 
 ## Usage
@@ -49,7 +49,7 @@ Below is a basic example of how to use the `useURLState` hook to synchronize mul
 
 ```jsx
 import React from 'react';
-import { useURLState } from 'url-state-compressor';
+import { useURLState } from '@jhasbulla/url-state-compressor';
 
 const Dashboard: React.FC = () => {
   // Synchronize the "filter" parameter

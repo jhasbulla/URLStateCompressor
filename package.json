@@ -1,15 +1,26 @@
 {
-  "name": "url-state-compressor",
+  "name": "@jhasbulla/url-state-compressor",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/url-state-compressor.cjs.js",
+  "module": "dist/url-state-compressor.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "url",
+    "state",
+    "compression",
+    "react",
+    "typescript"
+  ],
+  "author": "jhasbulla",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.13.10",
     "@types/react": "^19.0.10",
