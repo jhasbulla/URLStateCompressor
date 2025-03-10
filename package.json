@@ -12,6 +12,13 @@
     "dev": "vite",
     "build": "vite build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhasbulla/url-state-compressor.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "url",
     "state",
